@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+# Challenge Wise Med 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- Ambos problemas estan resueltos en una misma aplicación, diferenciados en dos pantallas. Una para la lista y otra para la integracion de [Sentri.io](http://sentry.io)
+
+## Problema 1: Manejo de Datos con Axios
+
+Crea una pequeña aplicación en React Native que realice una solicitud HTTP GET utilizando Axios para obtener una lista de datos de una API pública (por ejemplo, la API de usuarios de jsonplaceholder). Luego, muestra esta lista de usuarios en una lista simple con sus nombres y correos electrónicos.
+
+## Problema 2: Integración con Expo y Monitoreo de Errores con Sentry
+
+Simula un error en una aplicación React Native basada en Expo, y configura Sentry para capturar y reportar este error. El error puede ser algo tan simple como intentar acceder a una propiedad de un objeto undefined.
 
 ## Get started
 
-1. Install dependencies
+1. Instalar dependencias
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Arrancar proyecto
 
    ```bash
     npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
