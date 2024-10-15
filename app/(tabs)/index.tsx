@@ -13,9 +13,15 @@ type IData = {
 	email: string;
 };
 
+type IDataProps = {
+	id: string;
+	title: string;
+	subTitle: string;
+};
+
 export default function HomeScreen() {
-	const [loading, setloading] = useState(true);
-	const [data, setData] = useState([]);
+	const [loading, setloading] = useState<boolean>(true);
+	const [data, setData] = useState<Array<IDataProps>>([]);
 
 	useEffect(() => {
 		user
