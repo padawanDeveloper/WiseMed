@@ -19,7 +19,7 @@ type IDataProps = {
 	subTitle: string;
 };
 
-export default function HomeScreen() {
+const useFetchData = () => {
 	const [loading, setloading] = useState<boolean>(true);
 	const [data, setData] = useState<Array<IDataProps>>([]);
 
@@ -41,6 +41,12 @@ export default function HomeScreen() {
 				setloading(false);
 			});
 	}, []);
+
+	return { data, loading };
+};
+
+export default function HomeScreen() {
+	const { data, loading } = useFetchData();
 
 	if (loading) return <Loading />;
 
